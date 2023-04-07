@@ -146,7 +146,6 @@ td {
 h2 {
   order: 1;
   flex: 100%;
-
 }
 .Competences {
   background-color: #70d6ff;
@@ -219,29 +218,43 @@ li {
   height: 15px;
   background: linear-gradient(#70d6ff, #ff38ee);
 }
-#degrade-rose-orange{
+#degrade-rose-orange {
   width: 100%;
   height: 15px;
   background: linear-gradient(#ff38ee, #ff6a00);
 }
-.Projets{
+.Projets {
   background-color: #ff38ee;
-  display: flex;
-  flex-basis: content;
   margin-left: 40px;
   margin-right: 40px;
-  text-align: center;
   margin: auto;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.Passions{
+.Passions {
   background-color: #ff6a00;
   padding: 40px 0 40px 0;
 }
-h3{
+.project_table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ffa9f8b7;
+  border: solid 3px #4a0045;
+
+}
+
+.project_table thead {
+  background-color: #d800cd;
+  font-size: 30px;
+  padding-top: 15px;
+}
+.descr_cell {
+  text-align: left;
+}
+h3 {
   margin-top: 0;
 }
-.Passions, ul{
+.Passions ul {
   margin-top: 0;
 }
