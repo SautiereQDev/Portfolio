@@ -21,7 +21,7 @@
   display: flex;
   gap: 2.5em;
   font-size: 18px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
   margin-right: 75px;
 }
@@ -80,10 +80,14 @@ h2 {
 }
 .section-title {
   margin-top: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 #Presentation {
-  padding-top: 100px;
-  padding-bottom: 45px;
+  padding-top: 120px;
+  padding-bottom: 60px;
   display: flex;
   text-align: center;
   flex-flow: row wrap;
@@ -120,13 +124,13 @@ h2 {
   flex-basis: content;
   justify-content: center;
   text-align: center;
+  padding: 60px 0 60px;
   font-family: "sf_pro_displayregular";
 }
 #Competences > div {
   padding-top: 20px;
   background-color: #caf0fd;
   padding-bottom: 15px;
-  margin: 45px 0 45px;
 }
 .App_comp {
   padding: 0 10px 0px 20px;
@@ -160,18 +164,18 @@ li {
 }
 .collumn-title {
   font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-decoration: underline 3px #001276;
+  text-underline-offset: 15px;
   margin: 0;
 }
-/*
-.project_table img{
+
+.project_table img {
   max-width: 100px;
   padding: 0;
+  height: 50px;
   aspect-ratio: 1;
-} */
-.title-separator {
-  background-color: #001276;
-  height: 1.5px;
-  margin-bottom: 30px;
 }
 .collumn-separation {
   border: none;
@@ -199,16 +203,18 @@ li {
 }
 #Projets {
   background-color: #ff38ee;
-  margin-left: 40px;
-  margin-right: 40px;
   margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   font-family: "sf_pro_displayregular";
+}
+th{
+  font-family: Montserrat;
+  font-weight: 600;
 }
 #Passions {
   background-color: #ff6a00;
-  padding: 40px 0 15px 0;
+  padding: 60px 0 25px 0;
   font-family: "sf_pro_displayregular";
 }
 .project_table {
@@ -252,4 +258,20 @@ h3 {
 }
 #Passions p {
   margin-top: 0;
+}
+footer{
+  display: flex;
+  /* background-color: #001174; */
+  background-color: #323b40;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer img{
+  aspect-ratio: 1;
+  height: 80px;
+  margin-left: 50px;
+}
+hr{
+  margin: 0;
 }
