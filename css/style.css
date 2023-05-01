@@ -48,9 +48,8 @@ body {
   margin-right: 75px;
 }
 
-.menu li:hover {
-  background-color: #4c9e9e;
-  border-radius: 5px;
+.menu a:hover {
+  color: #3083ff;
   transition: 0.3s ease;
 }
 
@@ -183,8 +182,6 @@ li {
 .collumn-title {
   font-size: 1.5vw;
   font-weight: 700;
-  text-decoration: underline 3px #001276;
-  text-underline-offset: 15px;
   margin: 0;
 }
 
@@ -192,13 +189,6 @@ li {
   padding: 0;
   height: 3vw;
   aspect-ratio: 1;
-}
-
-.collumn-separation {
-  border: none;
-  border-left: 1px solid #011fc8;
-  height: auto;
-  transform: rotate(90°);
 }
 
 .comp_list > li {
@@ -321,17 +311,13 @@ footer img {
     font-size: 1.25vw;
   }
 
-  footer{
-  padding-top: 2.5vh;
-  padding-bottom: 2.5vh;
+  footer {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
   }
 }
 
 @media screen and (min-width: 1366px) {
-  .collumn-title {
-    text-underline-offset: 3px;
-  }
-
   .Console_comp {
     margin-right: 2.5%;
   }
@@ -351,7 +337,4 @@ footer img {
 }
 
 @media screen and (max-width: 768px) {
-  .collumn-title {
-    text-underline-offset: 5px;
-  }
 }
